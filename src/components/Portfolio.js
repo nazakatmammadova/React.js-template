@@ -31,7 +31,7 @@ function Portfolio() {
       ])
   return (
     <>
-    <section id='portfolio'>
+    <section id='portfolio' className='py-6'>
         <div className="container">
             <h2 className='text-center text-secondary mb-0'>PORTFOLIO</h2>
             <div className="divider text-secondary my-3 d-flex justify-content-center align-items-center">

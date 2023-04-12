@@ -3,7 +3,7 @@ import '../App.css'
 function Header() {
   return (
     <>
-         <header className="bg-primary">
+         <header className="bg-primary py-6">
         <div className="container d-flex align-items-center flex-column">
           <img
             className="mb-5"
