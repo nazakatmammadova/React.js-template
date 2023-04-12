@@ -2,6 +2,9 @@
 body{
     font-family: 'Montserrat',sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar-collapse{
     flex-grow: 0 !important;
 }
