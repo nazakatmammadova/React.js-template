@@ -8,6 +8,13 @@ html{
 .navbar-collapse{
     flex-grow: 0 !important;
 }
+.btn-primary{
+    border: none !important;
+    background-color: #1abc9c !important;
+}
+.text-primary{
+    color: #1abc9c !important;
+}
 .bg-white{
     background-color: white;
 }
@@ -43,7 +50,7 @@ header h1{
     width: 112px;
     height: 4px;
 }
-#portfolio h2,#about h2{
+#portfolio h2,#about h2,#contact h2{
     font-size: 3rem;
     line-height: 2.5rem;
     font-weight: 700;
@@ -78,12 +85,74 @@ header h1{
     opacity: 1;
 }
 .lead{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 500;
 }
 .btn-xl{
     padding: 1rem 1.75rem;
     font-size: 1.25rem;
+}
+.form-floating .form-control{
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    outline: none;
+    box-shadow: none;
+}
+.form-floating .form-control:focus{
+    border-color: #1abc9c;
+}
+.form-floating>.form-control:not(:placeholder-shown)~label{
+    font-size: 24px;
+    color: #6c757d !important;
+    padding: 0 !important;
+    font-weight: 500;
+    opacity: 1 !important;
+    transform: scale(1) translateY(0rem) translateX(0rem) !important;
+}
+.form-floating>.form-control:focus~label{
+    opacity: 0.65;
+    transform: scale(0.65) translateY(-0.5rem) translateX(0rem) !important;
+}
+.form-floating>.form-control:not(:placeholder-shown)~label::after{
+    height: 0 !important;
+    inset: 0 !important;
+}
+.form-floating>.form-control-plaintext:focus, .form-floating>.form-control-plaintext:not(:placeholder-shown), .form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.form-floating .form-control {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    outline: none;
+    box-shadow: none;
+}
+.form-floating>.form-control{
+    padding: 1rem 0 !important;
+}
+footer h4{
+    font-weight: 700;
+    font-size: 24px;
+}
+.btn-social{
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: #1a252f;
 }
 @media(max-width:1200px){
     .portfolio-item{
